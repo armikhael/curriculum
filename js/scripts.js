@@ -3,18 +3,18 @@ jQuery.noConflict()(function($){
     $(window).load(function() {   
             $(function () {
                 $('.timeline-item-trigger span').click(function () {
-                    if ($(this).hasClass('icon-plus-sign')) {
-                        $(this).removeClass('icon-plus-sign').addClass('icon-minus-sign');
+                    if ($(this).hasClass('fa fa-plus')) {
+                        $(this).removeClass('fa fa-plus').addClass('fa fa-minus');
                     } else {
-                        $(this).removeClass('icon-minus-sign').addClass('icon-plus-sign');
+                        $(this).removeClass('fa fa-minus').addClass('fa fa-plus');
                     }
                 });
                 $('.timeline-item-title').click(function () {
                     $trigger = $(this).parent().parent().find('.timeline-item-trigger span');
-                    if ($trigger.hasClass('icon-plus-sign')) {
-                        $trigger.removeClass('icon-plus-sign').addClass('icon-minus-sign');
+                    if ($trigger.hasClass('fa fa-plus')) {
+                        $trigger.removeClass('fa fa-plus').addClass('fa fa-minus');
                     } else {
-                        $trigger.removeClass('icon-minus-sign').addClass('icon-plus-sign');
+                        $trigger.removeClass('fa fa-minus').addClass('fa fa-plus');
                     }
                 });
             });
