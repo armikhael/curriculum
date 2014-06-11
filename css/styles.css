@@ -373,7 +373,9 @@ ul.social > li a:hover{
 }
 .service .box{
   float: left;
+  margin-top: 25px;
   margin-right: 26px;
+  margin-bottom: 50px;
   text-align: center;
   width: 240px;
 }
