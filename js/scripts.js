@@ -110,10 +110,11 @@ var $map = $('#map-content');
     if( $map.length ) {
 
       $map.gMap({
-        address: '9930 124th Avenue Northeast Kirkland, Washington',
-        zoom: 14,
+        address: '9930 124th Urbanizacion Santa Maria, Los Teques',
+        zoom: 15,
+        scrollwheel: true,
         markers: [
-          { 'address' : '9930 124th Avenue Northeast  Kirkland, Washington',}
+          { 'address' : '9930 124th Urbanizacion Santa Maria, Los Teques',}
         ]
       });
 
