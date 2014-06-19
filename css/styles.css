@@ -134,6 +134,21 @@ ul.social > li a {
 ul.social > li a:hover{
   color:#3BC2C8;
 }
+ul.tour-blog{
+  list-style: none outside none;
+  padding: 0px;
+}
+ul.tour-blog > li{
+  display: inline;
+}
+ul.tour-blog > li a{
+  margin-top: 10px;
+  color:#747474;
+  margin-right: 20px;
+}
+ul.tour-blog > li a:hover{
+  color:#3BC2C8;
+}
 .copyright{
   margin-top: 20px;
 }
