@@ -26,6 +26,14 @@ body{
 a{
   color:#3BC2C8;
 }
+a#github{
+  margin-top:50px;
+  color: #000;
+  font-size: 50px;
+}
+a#github :hover{
+  color:#3BC2C8;
+}
 .fixed{
   position: fixed;
 }
