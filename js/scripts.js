@@ -193,11 +193,12 @@ jQuery.noConflict()(function($){
 
 /* ---------- @ Scroll to Section -----------*/
 jQuery.noConflict()(function($){
-    $('.nav').onePageNav({
-    filter: ':not(.external)',
-    currentClass: 'active',
-    scrollOffset: 40,
-    scrollThreshold: 0.25
+    $("nav").find("a").click(function(e) {
+        e.preventDefault();
+        var section = $(this).attr("href");
+        $("html, body").animate({
+            scrollTop: $(section).offset().top
+        });
     });
 });
 /* ---------- @ Responsive Nav -----------*/
