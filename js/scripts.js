@@ -101,27 +101,6 @@ jQuery.noConflict()(function($){
     });
 });
 
- /* ---------- @ GoogleMap ------*/
-jQuery.noConflict()(function($){
-var $map = $('#map-content');
-    google.maps.event.addDomListener(window, 'resize', function() {
-      map.setCenter(homeLatlng);
-    });
-    if( $map.length ) {
-
-      $map.gMap({
-        address: '9930 124th Urbanizacion Santa Maria, Los Teques',
-        zoom: 15,
-        scrollwheel: true,
-        markers: [
-          { 'address' : '9930 124th Urbanizacion Santa Maria, Los Teques',}
-        ]
-      });
-
-    }
-});
-
-
 /* ---------- @ Contact From -----------*/
 
 jQuery.noConflict()(function($){
