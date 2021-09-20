@@ -938,10 +938,10 @@ input[type='color']:focus,
 		margin-left: 30px;
 	}
 	.timeline-head-content {
-		width: 420px;
+		width: 75%;
 	}
 	.timeline-item-content {
-		width: 420px;
+		width: 75%;
 	}
 	#contact {
 		padding-bottom: 110px;
@@ -1001,7 +1001,9 @@ input[type='color']:focus,
 		margin-top: 290px;
 	}
 	.mtcon .short-dec {
-		margin-left: 54px;
+		margin-left: 0px;
+		text-align: center;
+		padding: 20px;
 	}
 	.timeline {
 		margin-left: 0px;
@@ -1014,6 +1016,7 @@ input[type='color']:focus,
 		width: 100%;
 		text-align: center;
 		float: none;
+		margin-top: 5px;
 	}
 	.timeline-head {
 		margin-left: 250px;
