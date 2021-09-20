@@ -971,10 +971,10 @@ input[type='color']:focus,
 		margin-left: 22px;
 	}
 	.timeline-head-content {
-		width: 440px;
+		width: 75%;
 	}
 	.timeline-item-content {
-		width: 440px;
+		width: 75%;
 	}
 }
 
@@ -1037,7 +1037,20 @@ input[type='color']:focus,
 		top: 61px;
 	}
 	.service {
-		margin-left: 140px;
+		margin-left: 0px;
+	}
+	.service .box {
+		width: 33.33%;
+		margin-right: 0px;
+	}
+	.service .box img {
+		width: 80px;
+	}
+	.service .box h2 {
+		font-size: 14px;
+	}
+	.rp10-0 {
+		padding: 0px 10px;
 	}
 	.skills h4 {
 		text-align: center;
@@ -1047,7 +1060,7 @@ input[type='color']:focus,
 		float: none;
 	}
 	.block {
-		margin-left: 140px;
+		margin-left: 40px;
 	}
 	.blog .block {
 		margin-left: 0px;
@@ -1062,7 +1075,7 @@ input[type='color']:focus,
 		font-size: 23px;
 	}
 	#contact {
-		padding-bottom: 320px;
+		padding: 15px;
 	}
 }
 @media (max-width: 768px) {
